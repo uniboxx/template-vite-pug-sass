@@ -1,1 +1,21 @@
 @use 'base'
+
+.container
+  border: 1px solid #333
+  padding: 30px
+
+  h1
+    text-transform: uppercase
+    margin-bottom: 40px
+
+  p
+    font-size: 1.5rem
+
+    a
+      display: inline-block
+      text-decoration: none
+      color: lightblue
+      &:hover
+        color: rgba(0,0,0,.5)
+      &:active
+        transform: scale(.95)
